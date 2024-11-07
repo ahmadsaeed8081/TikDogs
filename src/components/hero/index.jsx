@@ -345,14 +345,15 @@ const Hero = (props) => {
       <div className="container  tw-relative tw-pt-6 tw-pb-28">
         <div className="row    g-5 tw-items-center">
           <div className="col-lg-6 col-md-12 tw-pt-10 tw-pl-5 ">
-            <h1 className=" tw-text-[#FE0030]  tw-font-zen-dots  md:tw-text-5xl tw-text-3xl tw-pl-5">
+            <h1 className=" tw-text-[#FE0030]  tw-font-zen-dots  md:tw-text-4xl tw-text-3xl tw-pl-5">
             
-              How TikDogs Time has Come.
+            TIKDOGS: The Pawsitive Revolution
              
             </h1>
             <p className=" tw-text-black sm:tw-text-start tw-text-center  tw-font-normal tw-leading-7 tw-pt-4 tw-text-lg t tw-pl-5">
-            It's unlikely that anyone goes through life without facing any struggles, challenges or problems. Challenges are a natural part of the human experience, and they can vary widely in nature and intensity. People may encounter difficulties in their personal relationships, work, health, or other aspects of life.
-            </p>
+            TIKDOGS transformed pet ownership! Edison, a golden retriever, went viral by sharing his tricks. Dogs earned “TIKS” through engaging content, allowing them to buy treats and toys. This fun platform united owners, created community, and turned pets into influencers, leading to a joyful, tail-wagging adventure for all!
+
+</p>
             <div className=" tw-flex tw-gap-7 sm:tw-justify-start tw-justify-center tw-pl-5">
               <Button
 

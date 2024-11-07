@@ -24,7 +24,9 @@ const About = () => {
           
             </h1>
             <p className=" tw-text-black  sm:tw-text-start tw-text-center  tw-leading-8 tw-pt-4 tw-text-xl">
-            YouSamaritan is the first and only platform that enables users to transform passion into compassion. The platform leverages the advantages of blockchain technology, such as immutability, transparency, and security, to create a more efficient and secure way to advice and make confession. Learn about this philanthropic and altruistic project.       </p>
+            At TIKDOGS, we harness the power of AI and blockchain to revolutionize pet ownership. Our platform enables dogs to earn “TIKS” through engaging content, ensuring transparent rewards. By connecting owners and creating a vibrant community, we empower pets to contribute to their happiness in a fun, secure environment!
+
+</p>
         
            
             <div className=' tw-flex tw-flex-wrap    sm:tw-justify-start tw-justify-center tw-w-full sm:tw-gap-6 tw-gap-3 tw-items-center'>
@@ -88,7 +90,9 @@ const About = () => {
           
             </h1>
             <p className=" tw-text-black  sm:tw-text-start tw-text-center  tw-leading-8 tw-pt-4 tw-text-xl">
-            To provide a trusted platform Where Troubled hearts can access lifeline and comfort from people who survived the same depression,anxiety, and suicidal struggle in life. </p>
+            At TIKDOGS, we envision a trusted platform that prioritizes transparency and community engagement. We aim to empower pet owners and their furry friends through innovative technology, fostering a safe environment where dogs can showcase their talents, earn rewards, and enhance the joy of pet ownership for everyone!
+
+</p>
         
            
             </div>
@@ -106,7 +110,9 @@ const About = () => {
           
             </h1>
             <p className=" tw-text-black  sm:tw-text-start tw-text-center  tw-leading-8 tw-pt-4 tw-text-xl">
-            To Lead in charitable cause for troubled people. We will share your blessings and great lessons in life to troubled people in the world </p>
+            At TIKDOGS, our mission is to empower dog owners to achieve financial success while supporting charitable causes. By enabling pets to earn “TIKS” through their creativity—exchangeable for cash—we create opportunities for owners to grow wealth and thrive, ensuring a prosperous future for both pets and their dedicated humans.
+
+ </p>
         
            
             </div>
