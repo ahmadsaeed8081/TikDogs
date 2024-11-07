@@ -2,7 +2,7 @@ import React from "react";
 
 const Tokenomics = () => {
   return (
-    <div id="tokenSection" className="  tw-bg-[#456DA7]   tw-my-14">
+    <div id="tokenSection" className="  tw-bg-[#F90331]   tw-my-14">
       {/* <h1 className=" tw-text-white  tw-text-center tw-font-semibold tw-text-4xl">
         TOKENOMICS
       </h1> */}
@@ -10,7 +10,7 @@ const Tokenomics = () => {
       <div className="container ">
         <div className="row">
           <div className="col-md-12 tw-mx-auto">
-          <img src={require("../../assets/images/tokens.png")} className=" tw-w-full" />
+          <img src={require("../../assets/images/Tokenomics 2.png")} className=" tw-w-full" />
           </div>
         </div>
       </div>

@@ -251,7 +251,7 @@ const RoadMap = () => {
   </div>
 </div> */}
 {/* <img src={require('../../assets/images/road_map_mobile.png')} className=" tw-block sm:tw-hidden tw-w-full" /> */}
-<img src={require('../../assets/images/desktop_views.png')} className="  tw-mx-auto" />
+<img src={require('../../assets/images/Roadmap.png')} className="  tw-mx-auto" />
       </div>
     </div>
   );
