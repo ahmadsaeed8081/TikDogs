@@ -107,7 +107,7 @@ const Hero = (props) => {
   };
 
   const openPdfInNewTab = () => {
-    const pdfUrl = require("../../assets/images/YouSamaritan White Paper v2.pdf");
+    const pdfUrl = require("../../assets/images/whitepaper.pdf");
     window.open(pdfUrl, "_blank");
   };
 
