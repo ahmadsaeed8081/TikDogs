@@ -1,9 +1,8 @@
 
-export const ebm_address="0x2484b0c9f6C500EB763c8b1F95e5057560139279"
-export const usdt_address="0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063";
-
-export const presale_address="0xeB4710354a8cbcEb0A2C3Aa30725E4bB4aE59Da7";
-export const staking_address="0xdAF330EC188d82dc9ae5Cf2f543314E09ab44476";
+export const ebm_address="0x9092962cfdbF63147e0DBe03CA3e39c4BFC8324E"
+export const usdt_address="0x341343568948459e5b7017eDDb05110cfA3EF699";
+export const presale_address="0x80520c23EFa642A23eA5B6CadCcdfe640561F353";
+export const staking_address="0x71FA9dad311c6527937667fCa22570AC0561804d";
 
 
 export const staking_abi=[
@@ -618,57 +617,6 @@ export const presale_abi=[
 		"inputs": [
 			{
 				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"name": "Cso_arr",
-		"outputs": [
-			{
-				"internalType": "address",
-				"name": "",
-				"type": "address"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "DAI_token",
-		"outputs": [
-			{
-				"internalType": "address",
-				"name": "",
-				"type": "address"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
-			}
-		],
-		"name": "Emb_arr",
-		"outputs": [
-			{
-				"internalType": "address",
-				"name": "",
-				"type": "address"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
 				"name": "amount",
 				"type": "uint256"
 			},
@@ -695,6 +643,104 @@ export const presale_abi=[
 		"type": "function"
 	},
 	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_days",
+				"type": "uint256"
+			}
+		],
+		"name": "increase_currPhase_time",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "initalized",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bool",
+				"name": "_val",
+				"type": "bool"
+			}
+		],
+		"name": "set_doubleToken_Promo",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_val",
+				"type": "uint256"
+			}
+		],
+		"name": "set_minPurchase",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_owner",
+				"type": "address"
+			}
+		],
+		"name": "transferOwnership",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_price",
+				"type": "uint256"
+			}
+		],
+		"name": "update_currPhase_price",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "newCode",
+				"type": "address"
+			}
+		],
+		"name": "updateCode",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_amount",
+				"type": "uint256"
+			}
+		],
+		"name": "withdraw_Tiks",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
 		"inputs": [],
 		"name": "curr_time",
 		"outputs": [
@@ -709,70 +755,12 @@ export const presale_abi=[
 	},
 	{
 		"inputs": [],
-		"name": "doublDirectPercentage_promo",
-		"outputs": [
-			{
-				"internalType": "bool",
-				"name": "",
-				"type": "bool"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
 		"name": "doubleToken_promo",
 		"outputs": [
 			{
 				"internalType": "bool",
 				"name": "",
 				"type": "bool"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "int256",
-				"name": "dollar_amount",
-				"type": "int256"
-			}
-		],
-		"name": "getConversionRate",
-		"outputs": [
-			{
-				"internalType": "int256",
-				"name": "",
-				"type": "int256"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "getLatestPrice",
-		"outputs": [
-			{
-				"internalType": "int256",
-				"name": "",
-				"type": "int256"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "get_MaticPrice",
-		"outputs": [
-			{
-				"internalType": "uint256",
-				"name": "",
-				"type": "uint256"
 			}
 		],
 		"stateMutability": "view",
@@ -805,19 +793,8 @@ export const presale_abi=[
 		"type": "function"
 	},
 	{
-		"inputs": [
-			{
-				"internalType": "address",
-				"name": "add",
-				"type": "address"
-			},
-			{
-				"internalType": "uint256",
-				"name": "val",
-				"type": "uint256"
-			}
-		],
-		"name": "get_previousEarning",
+		"inputs": [],
+		"name": "get_MaticPrice",
 		"outputs": [
 			{
 				"internalType": "uint256",
@@ -866,7 +843,7 @@ export const presale_abi=[
 						"type": "uint256"
 					}
 				],
-				"internalType": "struct YouSamartian_Presale.refStatement_data1[]",
+				"internalType": "struct Tiks_Presale.refStatement_data1[]",
 				"name": "_arr",
 				"type": "tuple[]"
 			}
@@ -875,59 +852,32 @@ export const presale_abi=[
 		"type": "function"
 	},
 	{
-		"inputs": [],
-		"name": "getallCso",
-		"outputs": [
-			{
-				"internalType": "address[]",
-				"name": "_arr",
-				"type": "address[]"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "getallEmb",
-		"outputs": [
-			{
-				"internalType": "address[]",
-				"name": "_arr",
-				"type": "address[]"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
 		"inputs": [
 			{
-				"internalType": "uint256",
-				"name": "_days",
-				"type": "uint256"
+				"internalType": "int256",
+				"name": "dollar_amount",
+				"type": "int256"
 			}
 		],
-		"name": "increase_currPhase_time",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "initalized",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "min_purchase",
+		"name": "getConversionRate",
 		"outputs": [
 			{
-				"internalType": "uint256",
+				"internalType": "int256",
 				"name": "",
-				"type": "uint256"
+				"type": "int256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getLatestPrice",
+		"outputs": [
+			{
+				"internalType": "int256",
+				"name": "",
+				"type": "int256"
 			}
 		],
 		"stateMutability": "view",
@@ -992,6 +942,11 @@ export const presale_abi=[
 			{
 				"internalType": "uint256",
 				"name": "amount_raised",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "minimum_purchase",
 				"type": "uint256"
 			}
 		],
@@ -1074,97 +1029,6 @@ export const presale_abi=[
 		"type": "function"
 	},
 	{
-		"inputs": [],
-		"name": "samartian_token",
-		"outputs": [
-			{
-				"internalType": "address",
-				"name": "",
-				"type": "address"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "address",
-				"name": "_add",
-				"type": "address"
-			}
-		],
-		"name": "set_CSO",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "address",
-				"name": "_add",
-				"type": "address"
-			}
-		],
-		"name": "set_EMB",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "bool",
-				"name": "_val",
-				"type": "bool"
-			}
-		],
-		"name": "set_doubleDirectpercentage_Promo",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "bool",
-				"name": "_val",
-				"type": "bool"
-			}
-		],
-		"name": "set_doubleToken_Promo",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "_val",
-				"type": "uint256"
-			}
-		],
-		"name": "set_minPurchase",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "_val",
-				"type": "uint256"
-			}
-		],
-		"name": "set_minRefPurchase",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
 		"inputs": [
 			{
 				"internalType": "address",
@@ -1198,6 +1062,19 @@ export const presale_abi=[
 				"internalType": "uint256",
 				"name": "commission",
 				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "tiks_token",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
 			}
 		],
 		"stateMutability": "view",
@@ -1243,42 +1120,16 @@ export const presale_abi=[
 		"type": "function"
 	},
 	{
-		"inputs": [
+		"inputs": [],
+		"name": "usdt_token",
+		"outputs": [
 			{
 				"internalType": "address",
-				"name": "_owner",
+				"name": "",
 				"type": "address"
 			}
 		],
-		"name": "transferOwnership",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "address",
-				"name": "newCode",
-				"type": "address"
-			}
-		],
-		"name": "updateCode",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "_price",
-				"type": "uint256"
-			}
-		],
-		"name": "update_currPhase_price",
-		"outputs": [],
-		"stateMutability": "nonpayable",
+		"stateMutability": "view",
 		"type": "function"
 	},
 	{
@@ -1295,26 +1146,6 @@ export const presale_abi=[
 				"internalType": "address",
 				"name": "upliner",
 				"type": "address"
-			},
-			{
-				"internalType": "bool",
-				"name": "isCso",
-				"type": "bool"
-			},
-			{
-				"internalType": "bool",
-				"name": "isEmb",
-				"type": "bool"
-			},
-			{
-				"internalType": "uint256",
-				"name": "Cso_Earning",
-				"type": "uint256"
-			},
-			{
-				"internalType": "uint256",
-				"name": "Emb_Earning",
-				"type": "uint256"
 			},
 			{
 				"internalType": "bool",
@@ -1367,19 +1198,6 @@ export const presale_abi=[
 			}
 		],
 		"stateMutability": "view",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "uint256",
-				"name": "_amount",
-				"type": "uint256"
-			}
-		],
-		"name": "withdraw_SMT",
-		"outputs": [],
-		"stateMutability": "nonpayable",
 		"type": "function"
 	}
 ];

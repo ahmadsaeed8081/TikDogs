@@ -156,51 +156,20 @@ useEffect(()=>
          set_l3_statement(l3_statement)
 
        }catch{}
-       try{
-         l4_statement = await presale_contract.methods.get_refStatement(address,3).call();    
-         set_l4_statement(l4_statement)
-
-       }catch{}
-       try{
-         l5_statement = await presale_contract.methods.get_refStatement(address,4).call();    
-         set_l5_statement(l5_statement)
-
-       }catch{}
-
-
-       let previous_earning1 = await presale_contract.methods.get_previousEarning(address,0).call();    
-       let previous_earning2 = await presale_contract.methods.get_previousEarning(address,1).call();    
-       let previous_earning3 = await presale_contract.methods.get_previousEarning(address,2).call();    
-       let previous_earning4 = await presale_contract.methods.get_previousEarning(address,3).call();    
-       let previous_earning5 = await presale_contract.methods.get_previousEarning(address,4).call();    
-
-
-       set_previous_earning1(previous_earning1)
-       set_previous_earning2(previous_earning2)
-       set_previous_earning3(previous_earning3)
-       set_previous_earning4(previous_earning4)
-       set_previous_earning5(previous_earning5)
 
 
        set_refEarning(ref_earn)
        set_refCount(ref_count)
 
-       set_isCso(pre_user[1])
-       set_isEmb(pre_user[2])
-
-       set_Cso_Earning(pre_user[3])
-       set_Emb_Earning(pre_user[4])
-
     }
 
     //presale
-    let min_purchase = await presale_contract.methods.min_purchase().call();  
-  
-    let min_purchase_matic = await presale_contract.methods.getConversionRate(min_purchase).call();    
+    let min_purchase_matic = await presale_contract.methods.getConversionRate(10).call();    
 
     let curr_stage = await presale_contract.methods.get_curr_Stage().call();    
 
-    let curr_StageTime = await presale_contract.methods.get_curr_StageTime().call();    
+    let curr_StageTime = await presale_contract.methods.get_curr_StageTime().call();
+    
     let perTokenIn_Matic = await presale_contract.methods.get_MaticPrice().call();    
 
     // let curr_timePresale = await presale_contract.methods.curr_time().call();  
@@ -220,13 +189,12 @@ useEffect(()=>
 
     //staking 
     let suspend = await staking_contract.methods.suspend().call();    
-
     let currTime = await staking_contract.methods.get_currTime().call();    
     let totalusers = await staking_contract.methods.totalusers().call();    
 
     let totalbusiness = await staking_contract.methods.getTotalInvestment().call();
     set_is_suspend(suspend)
-    set_minPurchase(min_purchase)
+    set_minPurchase(curr_presale[5])
     set_minPurchase_matic(min_purchase_matic)
 
     set_MATICBalance(balance)

@@ -1,6 +1,8 @@
 import React from 'react'
 import Button from '../Button'
 import { FaArrowRight } from 'react-icons/fa6'
+import VideoSlider from "../videoSlider";
+
 // import EBM_Avenue from '../EBM_avenue'
 const About = () => {
 
@@ -29,7 +31,7 @@ const About = () => {
 </p>
         
            
-            <div className=' tw-flex tw-flex-wrap    sm:tw-justify-start tw-justify-center tw-w-full sm:tw-gap-6 tw-gap-3 tw-items-center'>
+            {/* <div className=' tw-flex tw-flex-wrap    sm:tw-justify-start tw-justify-center tw-w-full sm:tw-gap-6 tw-gap-3 tw-items-center'>
                 <div className=' tw-text-center '>
                     <h1 className=' tw-font-zen-dots   sm:tw-text-3xl tw-text-[18px] tw-text-[#E5B766]'>10M+</h1>
                     <p className=' sm:tw-text-[14px] tw-text-[9px] tw-text-[#E5B766] tw-font-medium'>People Reched</p>
@@ -49,7 +51,7 @@ const About = () => {
                     <p className=' sm:tw-text-[14px] tw-text-[9px] tw-text-[#E5B766] tw-font-medium'>Number of Media Mention</p>
                 </div>
               
-            </div>
+            </div> */}
             <Button
                    onClick={()=>openPdfInNewTab()}
                 rIcons={<FaArrowRight color="#fff" />}
@@ -66,8 +68,9 @@ const About = () => {
               <div className='row'>
                 <div className="col-md-12 tw-mx-auto">
                    <div className=' tw-relative '> 
-                    <img src={require('../../assets/images/about1.png')}   className=' tw-w-full' alt='' />
-                    
+                    {/* <img src={require('../../assets/images/about1.png')}   className=' tw-w-full' alt='' /> */}
+                    // <VideoSlider/>
+
                    
                    </div>
                 </div>

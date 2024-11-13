@@ -402,7 +402,7 @@ useEffect(()=>{
         <>
           <div className="tw-border tw-border-[#FE0030] tw-rounded-md">
             <div className="tw-flex px-4 tw-py-2 tw-border-b tw-justify-between tw-items-center">
-            <img src={require("../../assets/images/logo.png")} width={70}/>
+            <img src={require("../../assets/images/stake_logo.png")} width={70}/>
               <p className="tw-m-0 tw-text-black tw-text-2xl tw-font-bold">
                 TikDogs
               </p>
@@ -519,7 +519,7 @@ useEffect(()=>{
         <>
         <div className="tw-border tw-border-[#FE0030] tw-rounded-md">
           <div className="tw-flex px-4 tw-py-2 tw-border-b tw-justify-between tw-items-center">
-          <img src={require("../../assets/images/logo.png")} width={70}/>
+          <img src={require("../../assets/images/stake_logo.png")} width={70}/>
             <p className="tw-m-0 tw-text-black tw-text-2xl tw-font-bold">
               TikDogs
             </p>
@@ -594,7 +594,7 @@ useEffect(()=>{
         <>
         <div className="tw-border tw-border-[#FE0030] tw-rounded-md">
           <div className="tw-flex tw-mb-4 px-4 tw-py-2 tw-border-b tw-justify-between tw-items-center">
-            <img src={require("../../assets/images/logo.png")} width={70}/>
+            <img src={require("../../assets/images/stake_logo.png")} width={70}/>
             <p className="tw-m-0 tw-text-black tw-text-2xl tw-font-bold">
             TikDogs
             </p>

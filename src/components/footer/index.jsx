@@ -5,29 +5,39 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
-      <div className=" tw-overflow-x-hidden tw-bg-[#717a7a]">
+      <div className=" tw-overflow-x-hidden tw-bg-black">
         <div className="container tw-py-10">
           <div className="row tw-items-center">
             <div className="col-md-12 md:tw-text-start  tw-text-center">
-              <img width={120} src={require("../../assets/images/logo.png")} className="tw-mx-auto" />
+              <img width={220} src={require("../../assets/images/footer_logo.png")} className="tw-mx-auto" />
               <ul className=" tw-pt-6 tw-p-0 tw-flex  tw-justify-center tw-gap-5 tw-items-center">
                 <li>
-                  <Link to={'https://x.com/YouSamaritan_ph'}>
-                    <img src={require("../../assets/images/pajamas_twitter.png")} />
+                  <Link to={'https://x.com/TIKDOGS_'} target="_blank" >
+                    <img src={require("../../assets/images/x.png")} width={30} />
                   </Link>
                 </li>
                 <li>
-                  <Link to={'http://www.youtube.com/@YouSamaritanOfficial'}>
-                    <img src={require("../../assets/images/mingcute_youtube-fill.png")} />
+                  <Link to={'https://www.reddit.com/user/TikDogs'} target="_blank" >
+                    <img src={require("../../assets/images/reddit.png")} />
                   </Link>
                 </li>
 
                 <li>
-                  <Link to={'https://t.me/+c28JVp_JCsxlODNl'} >
-                  <FaTelegram size={30} color="#F9A11E" />
+                  <Link to={'https://t.me/TheTikDogs'} target="_blank" >
+                  <img src={require("../../assets/images/telegram.png")} width={30}/>
+                  </Link>
+                </li>
+                <li>
+                  <Link to={'https://www.linkedin.com/company/tikdogs'} target="_blank" >
+                    <img src={require("../../assets/images/linkedin.png")} />
                   </Link>
                 </li>
 
+                <li>
+                  <Link to={'https://www.instagram.com/thetikdogs'} target="_blank"  >
+                  <img src={require("../../assets/images/insta.png")} width={30}/>
+                  </Link>
+                </li>
 
               </ul>
               <p className=" sm:tw-text-xl tw-text-sm tw-text-white tw-pt-6 tw-text-center">

@@ -33,7 +33,7 @@ const HeroPopup = ({previous_earning, data, isModalOpen, setIsModalOpen, closeMo
           <h1 className="tw-capitalize tw-font-poppins tw-text-center tw-font-bold tw-text-xl">
             Earning Statement
           </h1>
-          {/* <div  className=" tw-w-10 tw-flex tw-justify-center tw-items-center tw-h-10 tw-bg-[#456DA7] tw-rounded-full"> */}
+          {/* <div  className=" tw-w-10 tw-flex tw-justify-center tw-items-center tw-h-10 tw-bg-[red] tw-rounded-full"> */}
           <MdClose
               onClick={() => setIsModalOpen(false)}
               size={25}
@@ -46,35 +46,35 @@ const HeroPopup = ({previous_earning, data, isModalOpen, setIsModalOpen, closeMo
             <form>
             <div className=" tw-overflow-x-auto " >
           <table className="tw-min-w-full tw-mb-0">
-          <thead className="tw-border-t tw-text-center tw-border-b tw-border-[#456DA7] tw-bg-primary">
+          <thead className="tw-border-t tw-text-center tw-border-b tw-border-[red] tw-bg-primary">
             <tr className="tw-rounded-lg tw-whitespace-nowrap">
               <th
                 scope="col"
-                className="tw-text-md tw-text-[#456DA7] tw-font-bold tw-px-6 tw-py-4"
+                className="tw-text-md tw-text-[red] tw-font-bold tw-px-6 tw-py-4"
               >
                 Sr no
               </th>
               <th
                 scope="col"
-                className="tw-text-md tw-text-[#456DA7] tw-font-bold tw-px-6 tw-py-4"
+                className="tw-text-md tw-text-[red] tw-font-bold tw-px-6 tw-py-4"
               >
                 Buyer
               </th>
               <th
                 scope="col"
-                className="tw-text-md tw-text-[#456DA7] tw-font-bold tw-px-6 tw-py-4"
+                className="tw-text-md tw-text-[red] tw-font-bold tw-px-6 tw-py-4"
               >
                 Amount
               </th>
               <th
                 scope="col"
-                className="tw-text-md tw-text-[#456DA7] tw-font-bold tw-px-6 tw-py-4"
+                className="tw-text-md tw-text-[red] tw-font-bold tw-px-6 tw-py-4"
               >
                 Date
               </th>
               <th
                 scope="col"
-                className="tw-text-md tw-text-[#456DA7] tw-font-bold tw-px-6 tw-py-4"
+                className="tw-text-md tw-text-[red] tw-font-bold tw-px-6 tw-py-4"
               >
                 My Reward
               </th>
