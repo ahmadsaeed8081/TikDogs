@@ -58,7 +58,7 @@ const Brands = () => {
             <div key={index} className="tw-flex  tw-items-center tw-justify-center tw-h-24">
               <img
                 src={require(`../../assets/images/${brand}`)}
-                className="tw-object-contain tw-h-24 tw-w-20"
+                className="tw-object-contain tw-h-24 tw-w-40"
                 alt={`Brand ${index + 1}`}
               />
             </div>

@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import { FaPlay, FaExpand } from "react-icons/fa";
 import { IoMdPause } from "react-icons/io";
 
-const VideoPlayer = ({ src }) => {
+const VideoPlayer = ({src}) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef(null);
 

@@ -28,26 +28,7 @@ const Team = () => {
                   </div>
                   </div>
                 </div>
-                <div className="tw-pb-8 ">
-                  <h3 className=" tw-text-white tw-text-xl tw-font-poppins  ">
-                    {member.name}
-                  </h3>
-                  <p className="tw-text-[#A4B4C3] m-0">{member.role}</p>
-                  {/* {member.links && (
-                    <ul className="tw-flex tw-gap-3 tw-pt-2 tw-justify-center tw-items-center">
-                      {member.links.map((link, i) => (
-                        <li key={i}>
-                          <Link to={link.url}>
-                            <img
-                              src={require(`../../assets/images/${link.icon}`)}
-                              alt={link.alt}
-                            />
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  )} */}
-                </div>
+
               </div>
             </div>
           ))}

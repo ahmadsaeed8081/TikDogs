@@ -69,7 +69,7 @@ const About = () => {
                 <div className="col-md-12 tw-mx-auto">
                    <div className=' tw-relative '> 
                     {/* <img src={require('../../assets/images/about1.png')}   className=' tw-w-full' alt='' /> */}
-                    // <VideoSlider/>
+                     <VideoSlider/>
 
                    
                    </div>
