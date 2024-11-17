@@ -41,7 +41,7 @@ const Footer = () => {
 
               </ul>
               <p className=" sm:tw-text-xl tw-text-sm tw-text-white tw-pt-6 tw-text-center">
-              TikDogs Address : <span style={{ color:"#6DA6FF" }}>0x2FbdD419f6a00d0113BF0d8618BA22E425540d72</span>
+              TikDogs Address : <span style={{ color:"#6DA6FF" }}>0xfC978eaefAf2f61ACa3A5456B462ffBed990Fbb4</span>
               </p>
 
             </div>

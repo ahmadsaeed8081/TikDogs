@@ -1,7 +1,7 @@
 
 export const ebm_address="0xfC978eaefAf2f61ACa3A5456B462ffBed990Fbb4"
 export const usdt_address="0xc2132D05D31c914a87C6611C10748AEb04B58e8F";
-export const presale_address="0x422514Fa8A4c6975D7eeD1dBf57433183F22dFa2";
+export const presale_address="0x575472a5Ad72dd3e684c90b84F0eeBf8e51c3F87";
 export const staking_address="0x414C4c7A4033C752900F519Dd56d495f6422c1E8";
 
 
