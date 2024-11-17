@@ -41,7 +41,7 @@ const Staking = (props) => {
 
   const notify = () => toast("Transaction Successfull!");
 
-  const options = [{value:"0", title:"3 months", APR : "9%" }, {value:"1",title:"6 months", APR : "36%" }, {value:"2",title:"9 months", APR : "81%" }];
+  const options = [{value:"0", title:"3 months", APR : "9%" }, {value:"1",title:"6 months", APR : "21%" }, {value:"2",title:"9 months", APR : "36%" }, {value:"3",title:"12 months", APR : "54%" }];
 
 
   const [isOpen, setIsOpen] = useState(false);
